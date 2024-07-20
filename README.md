@@ -4,6 +4,22 @@
 
 This project demonstrates data cleaning, processing with Apache Spark and Apache Flink, both locally and on AWS EMR.
 
+### Dataset Description
+
+The `taxi_tripdata.csv` dataset used in this project is sourced from the New York City Taxi and Limousine Commission (TLC). It contains detailed records of taxi trips in New York City, including information such as pickup and dropoff dates and times, passenger count, trip distance, payment type, fare amount, and more.
+
+#### Key Features:
+
+- **VendorID**: Code indicating the provider associated with the trip record.
+- **tpep_pickup_datetime**: Date and time when the meter was engaged.
+- **tpep_dropoff_datetime**: Date and time when the meter was disengaged.
+- **passenger_count**: Number of passengers in the vehicle.
+- **trip_distance**: The trip distance in miles.
+- **payment_type**: The payment method used by the passenger.
+- **fare_amount**: The fare amount calculated by the meter.
+
+This dataset provides a comprehensive view of taxi operations in NYC, useful for various analytical and machine learning tasks, such as demand prediction, fare estimation, and route optimization.
+
 ## Data Cleaning
 
 ### Steps:
