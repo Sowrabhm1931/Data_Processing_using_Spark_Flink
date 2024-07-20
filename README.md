@@ -1,4 +1,3 @@
-```markdown
 # Data Processing Project
 
 ## Overview
@@ -72,5 +71,3 @@ This project demonstrates data cleaning, processing with Apache Spark and Apache
 ## Conclusion
 
 This project provided hands-on experience with data cleaning, and processing using Spark and Flink, and handling various challenges in different environments.
-
-```
